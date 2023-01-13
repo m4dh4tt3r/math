@@ -1,2 +1,2 @@
 # math
-Random math noodling
+Random mathematics noodling
