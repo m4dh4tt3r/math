@@ -16,8 +16,7 @@ n = int(sys.argv[1])
 def generatePermutation(n):
     intList = [x + 1 for x in range(n)]
     random.shuffle(intList)
-    print(intList)
-    intStr = ''.join(str(x) for x in intList)
+    intStr = ' '.join(str(x) for x in intList)
     print(intStr)
     
 if __name__ == "__main__":
