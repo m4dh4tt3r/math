@@ -6,7 +6,7 @@ import sys
 import random
 
 nargs = len(sys.argv)
-if  nargs < 2 or nargs > 2:
+if  nargs != 2:
     print(f"Usage: {sys.argv[0]} n")
     exit(1)
 
